@@ -1,1 +1,2 @@
 HEADLESS=false
+browserType=chromium

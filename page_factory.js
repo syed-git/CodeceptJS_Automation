@@ -1,6 +1,9 @@
-const swagLabs = require('./pages/Swag_Labs_Selectors')
+const signInPage = require('./pages/sign_in_selectors')
+const amazonHomePage = require('./pages/amazon_home_page_selectors')
+
 module.exports; pageFactory = {
-    'Swag Labs': swagLabs
+    'Sign In': signInPage,
+    'Amazon Home Page': amazonHomePage
 }
 
 module.exports = pageFactory;
