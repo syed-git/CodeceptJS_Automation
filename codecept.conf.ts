@@ -7,7 +7,7 @@ setHeadlessWhen(process.env.HEADLESS);
 setCommonPlugins();
 
 export const config: CodeceptJS.MainConfig = {
-  tests: './*_test.ts',
+  tests: './tests/*_test.ts',
   output: './output',
   helpers: {
     Playwright: {
@@ -15,6 +15,12 @@ export const config: CodeceptJS.MainConfig = {
       show: true,
       browser: 'chromium',
       waitForNavigation: "networkidle0"
+    },
+    PageInteractionHelper: {
+      require: "./helpers/page-interaction_helpers.js"
+    },
+    PageValidationsHelper: {
+      require: "./helpers/page-validation_helpers.js"
     }
   },
   include: {
