@@ -1,6 +1,7 @@
 const Helper = require('@codeceptjs/helper');
 const world = require('../world.js')
 const pageFactory = require('../page_factory.js')
+
 class PageInteractionHelper extends Helper {
 
   // before/after hooks

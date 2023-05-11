@@ -1,38 +1,16 @@
 {
-  
   "scripts": {
-  
-    
-  "test": "codeceptjs run"
-  
+    "test": "codeceptjs run"
   },
-  
   "dependencies": {
-  
-    
-  "codeceptjs": "^3.4.1",
-  
-    
-  "playwright": "^1.33.0"
-  
+    "codeceptjs": "^3.4.1",
+    "playwright": "^1.33.0"
   },
-  
   "devDependencies": {
-  
-    
-  "@playwright/test": "^1.33.0",
-  
-    
-  "@types/node": "^20.1.0",
-  
-    
-  "node-env-run": "^4.0.2",
-  
-    
-  "ts-node": "^10.9.1",
-  
-    
-  "typescript": "^5.0.4"
-  
+    "@playwright/test": "^1.33.0",
+    "@types/node": "^20.1.0",
+    "node-env-run": "^4.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }
